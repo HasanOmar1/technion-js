@@ -56,3 +56,32 @@
 
 // let nums = "1-2-3-4-5";
 // console.log(nums.replaceAll("-", "."));
+
+// task 9
+
+// const str = "sdfwe";
+// console.log(str.substring(4, 2)); // fw ,  = str.substring(2,4)
+
+// task 10
+
+// const str = "I'm learning javascript!";
+
+// // learning
+// console.log(str.substr(4, 8));
+// console.log(str.substring(4, 12));
+// console.log(str.slice(4, 12));
+
+// // javascript
+// console.log(str.substr(13, 10));
+// console.log(str.substring(13, 23));
+// console.log(str.slice(13, 23));
+
+// task 11
+
+// const str = "http://www.notion.so/String-820cf1e906884d8fb9c02236fe1c6dcb/";
+
+// console.log(str.indexOf("http://") === 0);
+
+// const str = "https://www.notion.html";
+
+// console.log(str.indexOf(".html") === str.length - 5);
