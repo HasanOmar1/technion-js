@@ -45,3 +45,14 @@
 // alert(str.includes(str2) ? "Your string is found !" : "String not found !");
 
 // task 7
+
+// let nums = "1-2-3-4-5";
+// while (nums.includes("-")) {
+//   nums = nums.replace("-", ".");
+// }
+// console.log(nums);
+
+// task 8
+
+// let nums = "1-2-3-4-5";
+// console.log(nums.replaceAll("-", "."));
