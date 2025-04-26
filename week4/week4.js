@@ -1,5 +1,7 @@
 // "use strict";
 
+// String Methods
+
 // task 1
 // let name = "Mary ";
 // let activity = "drink tea";
@@ -71,7 +73,7 @@
 // console.log(str.substring(4, 12));
 // console.log(str.slice(4, 12));
 
-// // javascript
+// javascript
 // console.log(str.substr(13, 10));
 // console.log(str.substring(13, 23));
 // console.log(str.slice(13, 23));
@@ -84,3 +86,27 @@
 // task 12
 // const str = "https://www.notion.html";
 // console.log(str.indexOf(".html") === str.length - 5);
+
+// task 13
+// const str = "ab cd cd cd ef";
+// console.log(str.lastIndexOf("cd")); // 9
+// console.log(str.lastIndexOf("cd", 8)); // 6
+
+// task 14
+// const str = "abcde";
+// console.log(str.startsWith("abc")); //true
+// console.log(str.startsWith("xxx")); //false
+// console.log(str.startsWith("bc", 1)); //true
+
+// task 15
+// const str = "abcde";
+// console.log(str.endsWith("cde")); //true
+// console.log(str.endsWith("xxx")); //false
+// console.log(str.endsWith("bc", 3)); //true
+
+// task 16
+// let str = "ab-cd-ef";
+// console.log(str.split("-")); // ["ab" , "cd" , "ef"]
+// console.log(str.split("-", 2)); // ["ab" , "cd"]
+// console.log(str.split("")); // ["a", "b", "-", "c", "d", "-", "e", "f"]
+// console.log(str.split("", 3)); // ["a", "b", "-"]
