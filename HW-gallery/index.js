@@ -38,8 +38,8 @@ events.forEach((item) => {
   const img = document.createElement("img");
   img.src = item.image;
   img.alt = item.name;
-
   container.append(img);
+
   const details = document.createElement("div");
   details.className = "details";
 
@@ -52,13 +52,8 @@ events.forEach((item) => {
   details.append(h3);
   details.append(h5);
 
-  container.addEventListener("mouseover", () => {
-    container.append(details);
-  });
-
-  container.addEventListener("mouseout", () => {
-    details.remove();
-  });
+  container.addEventListener("mouseover", () => container.append(details));
+  container.addEventListener("mouseout", () => details.remove());
 
   galleryContainer.append(container);
 });
