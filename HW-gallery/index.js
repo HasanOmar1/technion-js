@@ -1,3 +1,7 @@
+// "use strict";
+
+// חסן עומר + עיסא לואבנה
+
 const events = [
   {
     name: "Music Festival",
